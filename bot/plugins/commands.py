@@ -99,7 +99,7 @@ async def help(bot, update):
         InlineKeyboardButton('Support', url='https://t.me/malayalammoviesdownloader'),
         InlineKeyboardButton('Bot Updates', url=f'https://t.me/newmoviesottrelease')
     ],[
-        InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'https://t.me/newmoviesottrelease')
+        InlineKeyboardButton('𝐌𝐚𝐥𝐥𝐮 𝐂𝐢𝐧𝐞𝐦𝐚𝐬 𝐀𝐝𝐦𝐢𝐧 ', url=f'https://t.me/Fantasyatmebot')
     ],[   
         InlineKeyboardButton('🏠Home', callback_data='start'),
         InlineKeyboardButton('About😎', callback_data='about'),
