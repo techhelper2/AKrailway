@@ -1663,7 +1663,7 @@ async def callback_data(bot, update: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Support', url='https://t.me/malayalammoviesdownloader'),
             InlineKeyboardButton('Bot Updates', url=f'https://t.me/newmoviesottrelease')
-        ][   
+        ],[   
             InlineKeyboardButton('🏠Home', callback_data='start'),
             InlineKeyboardButton('About😎', callback_data='about'),
             InlineKeyboardButton('Close❌️', callback_data='close')
