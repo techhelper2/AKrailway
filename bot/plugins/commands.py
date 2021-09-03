@@ -55,13 +55,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url=f"https://t.me/{MT_CHANNEL}"
-                                )
-                        ],
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '🤖 Bot Updates🤖', url=f"t.me/{MT_UPDATES}"
+                                    'Search More 🔎', url=f"t.me/{MT_UPDATES}"
                                 )
                         ]
                     ]
