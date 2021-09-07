@@ -124,7 +124,7 @@ async def cb_navg(bot, update: CallbackQuery):
                     [
                         InlineKeyboardButton
                             (
-                                f"⚜ {chat_name} ⚜", url=invite_link
+                                f"🎥 {chat_name} 🎥", url=invite_link
                             )
                     ]
                 )
@@ -144,7 +144,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<b>🗂️Total File :- {leng}</b>\n<b>🎬Movie Name :-</b> <code>{query}</code>"
+    text=f"Select you file:\n<b>🎬Movie Name :-</b> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1603,14 +1603,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_Tech_YT">Mo Tech YT</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/Mo_Tech_YT/Pro-Filter-Bot-V2.0">Source</a>"""
+    text+=f"""\n<b><i>Song Channel:</i></b> <a href="https://t.me/free_music123">Mo Tech YT</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://telegra.ph/file/21e06a011217f7308c3c9.jpg">Source</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/Mo_Tech_Group"
+                    "Creator⚡", url="https://t.me/Geronimo1234"
                 ),
                 
             InlineKeyboardButton
@@ -1661,10 +1661,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Support', url='t.me/Mo_Tech_Group'),
-            InlineKeyboardButton('Bot Updates', url=f't.me/{MT_UPDATES}')
+            InlineKeyboardButton('Song group', url='t.me/song_requestgroup'),
+            InlineKeyboardButton('Song channel', url=f't.me/{MT_UPDATES}')
         ],[
-            InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+            InlineKeyboardButton('🎬Movie Group🎬', url=f't.me/all_super_movies')
         ],[   
             InlineKeyboardButton('🏠Home', callback_data='start'),
             InlineKeyboardButton('About😎', callback_data='about'),
@@ -1683,7 +1683,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+            InlineKeyboardButton('🎬Movie Group🎬', url=f't.me/all_super_movies')
         ],[
             InlineKeyboardButton('🏠Home', callback_data='start'),
             InlineKeyboardButton('Close❌️', callback_data='close')
