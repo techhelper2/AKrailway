@@ -55,13 +55,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url=f"https://t.me/{MT_CHANNEL}"
+                                    '🎸Song Channel🎸', url=f"https://t.me/{MT_CHANNEL}"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🤖 Bot Updates🤖', url=f"t.me/{MT_UPDATES}"
+                                    '🎵 Song Group🎵', url=f"t.me/free_music123"
                                 )
                         ]
                     ]
