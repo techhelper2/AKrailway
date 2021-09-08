@@ -6,7 +6,7 @@ class Translation(object):
     
     START_TEXT = """👋Hey {},
 
-Myself AK MOVIE BOT and you can not Add Me to your Group. I was made for @all_super_movies. So don't waste your Time...\n\n{}"""
+Myself AK MOVIE BOT and you can not Add Me to your Group. I was made for @all_super_movies. So don't waste your Time..."""
 
 
     HELP_TEXT = """
