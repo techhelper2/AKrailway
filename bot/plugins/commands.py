@@ -61,7 +61,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎵 Song Group🎵', url=f"t.me/free_music123"
+                                    '🎵 Song Group🎵', url=f"t.me/song_requestgroup"
                                 )
                         ]
                     ]
